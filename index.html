@@ -78,7 +78,7 @@
     </head>
     <body>
 
-        <button class="circle-button" onclick="toggleSlideIn()">B</button>
+        <button class="circle-button" onclick="pageSlideIn()">B</button>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="#about">Katrina Murphy</a>
@@ -695,12 +695,12 @@
                         <li>button</li>
                         <li>modal</li>
                     </ul>
-                    <button class="btn btn-secondary" onclick="toggleSlideIn()">Close</button>
+                    <button class="btn btn-secondary" onclick="pageSlideIn()">Close</button>
                 </div>
             </div>
 
             <script>
-                function toggleSlideIn() {
+                function pageSlideIn() {
                 var slideInPage = document.getElementById('slideInPage');
                 slideInPage.classList.toggle('slide-in-page-visible');
                 }
